@@ -1,0 +1,24 @@
+name: tf
+
+channels:
+- conda-forge
+- defaults
+- jmcmurray # for json
+
+dependencies:
+- IPython
+- json
+- jupyter
+- jupyterlab
+- matplotlib
+- numpy
+- pandas
+- pillow
+- pip
+- python>=3.6
+- requests
+- scipy
+- scikit-image
+- scikit-learn
+- seaborn
+- tensorflow>=2.0.0
